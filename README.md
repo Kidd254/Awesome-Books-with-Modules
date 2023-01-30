@@ -24,10 +24,14 @@
 
 
 # 📖 [Awesome-Books-with-Modules] <a name="about-project"></a>
-**[Awesome-Books-with-Modules]** is the first project at Microverse that is meant to test one's knowledge on gitflow and Es Linter Configuration. This project was build using Html and css. Git, Github, and Vs Code Studio were key technological tools used in this project.
+**[Awesome-Books-with-Modules]** In this project i applied different concepts such as ES6, JavaScript modules,  knowledge on gitflow and Es Linter Configuration. This project was build using Html and css. Git, Github, and Vs Code Studio were key technological tools used in this project.
 
 ## 🛠 Built With <a name="built-with"> </a>
-This project is built using pure Html and css
+### Tech-Stack 
+This project is built using pure 
+- Html 
+- css
+- JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,7 +65,7 @@ Step 1:if you don't have git installed on your machine you can download it from 
 
 Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
 
-`git clone <your project link>`
+`git clone <https://github.com/Kidd254/Awesome-Books-with-Modules.git>`
 
 Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
@@ -106,6 +110,11 @@ You can deploy this project using: github pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Future Features
+- [deploy application]
+- [add more styling to make the web page more attractive]
+
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -144,4 +153,5 @@ Vote of thanks to Microverse for giving me an opportunity and ispiring me to com
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
 
