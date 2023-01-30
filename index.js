@@ -3,7 +3,7 @@ import { bookListHandler, addSectionHandler, contactInfoHandler } from './module
 import { DateTime } from './modules/luxon.js';
 
 const bookListLink = document.querySelector('.list_link');
-const addSectionLink= document.querySelector('.addSection_link');
+const addSectionLink = document.querySelector('.addSection_link');
 const contactInfoLink = document.querySelector('.contact_link');
 
 const fullDate = document.querySelector('.date-today');

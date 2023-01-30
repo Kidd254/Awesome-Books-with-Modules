@@ -70,4 +70,3 @@ addBtn.addEventListener('click', () => {
   Book.addBook(newBook);
   displayAll(newBook);
 });
-
