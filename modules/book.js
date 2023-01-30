@@ -1,8 +1,8 @@
 import storeData from './store.js';
 
-const addButton = document.querySelector('#add');
+const addBtn = document.querySelector('#add');
 const titleInput = document.querySelector('#title');
-const autherInput = document.querySelector('#author');
+const authorInput = document.querySelector('#author');
 let booksData = [];
 class Book {
   constructor(title, author) {
@@ -51,7 +51,7 @@ const bookLoders = (bookToBeLoad) => {
   dynamicCreation.classList.add('daynamic');
 };
 
-export const retrieveData = () => {
+export const getData = () => {
   const bookData = window.localStorage.getItem('books');
   const parseBookData = JSON.parse(bookData);
   if (parseBookData) {
@@ -59,15 +59,15 @@ export const retrieveData = () => {
   }
 };
 
-export const displayToPage = () => {
+export const displayAll = () => {
   booksData.forEach((book) => {
     bookLoders(book);
   });
 };
 
-addButton.addEventListener('click', () => {
-  const newBook = new Book(titleInput.value, autherInput.value);
+addBtn.addEventListener('click', () => {
+  const newBook = new Book(titleInput.value, authorInput.value);
   Book.addBook(newBook);
-  displayToPage(newBook);
+  displayAll(newBook);
 });
 

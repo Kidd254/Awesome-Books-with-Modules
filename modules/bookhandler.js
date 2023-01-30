@@ -1,6 +1,6 @@
-const linForBookList = document.querySelector('.for_list_link');
-const linkForAddSection = document.querySelector('.for_addSection_link');
-const linkForContInfo = document.querySelector('.for_contact_link');
+const bookListLink = document.querySelector('.list_link');
+const addSectionLink = document.querySelector('.addSection_link');
+const contactInfoLink = document.querySelector('.contact_link');
 
 const bookListSection = document.querySelector('.book_list');
 const addNewSection = document.querySelector('.input_container');
@@ -10,25 +10,25 @@ export const bookListHandler = () => {
   bookListSection.style.display = 'flex';
   contactSection.style.display = 'none';
   addNewSection.style.display = 'none';
-  linForBookList.style.color = 'blue';
-  linkForAddSection.style.color = 'black';
-  linkForContInfo.style.color = 'black';
+  bookListLink.style.color = '#0000ff';
+  addSectionLink.style.color = '#00000';
+  contactInfoLink.style.color = '#000000';
 };
 
 export const addSectionHandler = () => {
   bookListSection.style.display = 'none';
   contactSection.style.display = 'none';
   addNewSection.style.display = 'flex';
-  linForBookList.style.color = 'black';
-  linkForAddSection.style.color = 'blue';
-  linkForContInfo.style.color = 'black';
+  bookListLink.style.color = '#000000';
+  addSectionLink.style.color = '#0000ff';
+  contactInfoLink.style.color = '#000000';
 };
 
 export const contactInfoHandler = () => {
   bookListSection.style.display = 'none';
   contactSection.style.display = 'block';
   addNewSection.style.display = 'none';
-  linForBookList.style.color = 'black';
-  linkForAddSection.style.color = 'black';
-  linkForContInfo.style.color = 'blue';
+  bookListLink.style.color = '#000000';
+  addSectionLink.style.color = '#000000';
+  contactInfoLink.style.color = '#0000ff';
 };

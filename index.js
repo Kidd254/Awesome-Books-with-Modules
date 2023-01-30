@@ -1,21 +1,21 @@
-import { retrieveData, displayToPage } from './modules/book.js';
+import { getData, displayAll } from './modules/book.js';
 import { bookListHandler, addSectionHandler, contactInfoHandler } from './modules/bookhandler.js';
 import { DateTime } from './modules/luxon.js';
 
-const linForBookList = document.querySelector('.for_list_link');
-const linkForAddSection = document.querySelector('.for_addSection_link');
-const linkForContInfo = document.querySelector('.for_contact_link');
+const bookListLink = document.querySelector('.list_link');
+const addSectionLink= document.querySelector('.addSection_link');
+const contactInfoLink = document.querySelector('.contact_link');
 
-const dateParagraph = document.querySelector('.date');
-const dateTime = DateTime.now();
-dateParagraph.innerHTML = dateTime.toLocaleString(DateTime.DATETIME_MED);
+const fullDate = document.querySelector('.date-today');
+const date = DateTime.now();
+fullDate.innerHTML = date.toLocaleString(DateTime.DATETIME_MED);
 
 window.onload = () => {
-  linForBookList.style.color = 'blue';
-  retrieveData();
-  displayToPage();
+  bookListLink.style.color = '#0000ff';
+  getData();
+  displayAll();
 };
 
-linForBookList.addEventListener('click', bookListHandler);
-linkForAddSection.addEventListener('click', addSectionHandler);
-linkForContInfo.addEventListener('click', contactInfoHandler);
+bookListLink.addEventListener('click', bookListHandler);
+addSectionLink.addEventListener('click', addSectionHandler);
+contactInfoLink.addEventListener('click', contactInfoHandler);
