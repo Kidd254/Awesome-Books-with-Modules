@@ -1,0 +1,181 @@
+nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  padding-top: 0;
+}
+
+.nav-container {
+  order: 0;
+  width: 98%;
+  display: flex;
+  border: solid 3px black;
+  height: 60%;
+}
+
+.nav-title {
+  order: 0;
+  font-weight: bolder;
+  width: 70%;
+  margin-left: 2%;
+}
+
+nav p {
+  margin-top: 2px;
+  margin-left: 87%;
+}
+
+.nav-links {
+  order: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20%;
+  height: 45px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.nav-links li {
+  list-style: none;
+  font-weight: bold;
+  height: 65%;
+  text-align: center;
+  padding-right: 5px;
+  margin-left: 3px;
+  margin-right: 5px;
+}
+
+.for_list_link {
+  border-right: solid 2px black;
+}
+
+.for_addSection_link {
+  border-right: solid 2px black;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.book_list {
+  order: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 98%;
+}
+
+.book_list h1 {
+  order: 0;
+  padding-left: 40%;
+}
+
+.daynamic {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: solid 3px black;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.remove {
+  height: 30px;
+  margin: 12px 0 5px 0;
+}
+
+.article_content {
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.article_content p {
+  width: 65%;
+  margin-left: 10px;
+  padding-right: 30%;
+}
+
+.input_container {
+  margin-top: 50px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 20%;
+}
+
+#title {
+  border: solid 2px black;
+  margin-top: 10px;
+}
+
+#author {
+  margin-top: 10px;
+  border: solid 2px black;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 40px;
+  margin-left: 85%;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_info h3 {
+  padding-left: 45%;
+}
+
+.contact_info p {
+  width: 75%;
+  font-weight: bold;
+}
+
+.contact_info ul li {
+  font-weight: bold;
+}
+
+.footer {
+  padding-top: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  order: 0;
+  width: 98%;
+  display: flex;
+  border: solid 3px black;
+}
+
+.footer-content {
+  order: 0;
+  margin-left: 2%;
+  font-weight: bolder;
+}
+
+.hide {
+  display: none;
+}
