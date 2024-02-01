@@ -102,7 +102,7 @@ You can deploy this project using: github pages
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Author1**
+👤 **Lawrence Muema Kioko**
   
 - GitHub: [@Kidd254](https://github.com/Kidd254)
 - Twitter: [@lawrenc98789206](https://twitter.com/lawrenc98789206)
