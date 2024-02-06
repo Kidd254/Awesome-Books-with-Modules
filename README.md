@@ -23,8 +23,8 @@
 
 
 
-# 📖 [Awesome-Books-with-Modules] <a name="about-project"></a>
-**[Awesome-Books-with-Modules]** In this project i applied different concepts such as ES6, JavaScript modules,  knowledge on gitflow and Es Linter Configuration. This project was build using Html and css. Git, Github, and Vs Code Studio were key technological tools used in this project.
+# 📖 Awesome-Books-with-Modules <a name="about-project"></a>
+**Awesome-Books-with-Modules** In this project i applied different concepts such as ES6, JavaScript modules,  knowledge on gitflow and Es Linter Configuration. This project was build using Html and css. Git, Github, and Vs Code Studio were key technological tools used in this project.
 
 ## 🛠 Built With <a name="built-with"> </a>
 ### Tech-Stack 
