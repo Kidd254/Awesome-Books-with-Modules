@@ -15,7 +15,7 @@ class Book {
     const newBook = new Book(book.title, book.author);
     booksData.push(newBook);
     storeData(booksData);
-    window.location.reload();
+    window.location.reload();//to reload the current webpage
   }
 
   static removeBook(book) {
